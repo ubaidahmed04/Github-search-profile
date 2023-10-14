@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}.container{
+    display:  flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.bg{
+    background-color: aquamarine;
+    height: 100vh;
+}
+.head{
+    color: blueviolet;
+    /* font-size: 30px; */
+}
+.input{
+    width: 300px;
+    height: 48px;
+    border-radius: 5px;
+    font-size:20px;
+    font-weight: 500;
+    margin: 3px;
+
+}
+#usernotfound{
+    align-items: center;
+    width: 300px;
+    height:300px ;
+    margin-top: 30px;
+    font-size: 20px;
+    
+
+}
+
+.search_Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_button{
+    margin-bottom: 10px;
+    
+}
+.name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+.bio{
+    margin-top: 10px;
+
+    font-weight: 500;
+    color: black;
+
+}
+#card{
+    background-color: rgb(47, 133, 133);
+    width: 400px;
+    color: rgb(12, 12, 18);
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#img{
+    border-radius: 50%;
+    width: 200px ;
+    height: 200px;
+}
+.text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: left;
+    gap: 57px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    /* align-items:  center; */
+}
